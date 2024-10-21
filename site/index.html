@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href = "stylesheet.css" type = "text/css" rel= "stylesheet" />
+    <script src = "Script.js"></script>
+    <title></title>
+</head>
+<body>
+    <p id = "hello">This is a text</p>
+    <p>some text to see what happens</p>
+    <button type = "button" onclick = "helloWorld()">Click me!</button>
+    <br />
+    <button type="button" onclick=" darkMode()">Dark or light?</button>
+    <br />
+    Name:<input type="text" id="name" /><br />
+    Password: <input type="password" id="pword" /><br />
+    <button type="button" onclick="saveInputPrintOutput()">Show details</button>
+    <p id="output"></p>
+    <br /><br />
+    <img src="../halloween.jpg" id="HW" onmouseover="colorInvert()" height="65%" width="65%" onmouseout="colorNormal()"/>
+    <br />
+    <button type="button" onclick="forLoop()">SUM</button><br />
+    <p id="sum"></p>
+    <br />
+    <button type="button" onclick="date()">Today</button>
+    <p id="today"></p>
+</body>
+</html>

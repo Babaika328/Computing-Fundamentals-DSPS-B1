@@ -1,0 +1,38 @@
+/*this is how we comment*/
+
+body{
+	background-color:aquamarine;
+	border:red;
+	background-image:url(16.jpg);
+	color:gold;
+
+}
+h1, h2, p{
+	color:cyan;
+	text-align:center;
+}
+p.spring{
+	color:forestgreen;
+}
+div.ex1{
+	width:300px;
+	text-align:center;
+}
+
+a:link{
+	
+	background-color:aqua;
+	color:orangered;
+}
+
+a:visited{
+	color: orangered;
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active{
+	color:aqua;
+}
